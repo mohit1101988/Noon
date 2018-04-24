@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Random.NewTestNegative">
+        <methods>
+          <include name="NTC5"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Random.NewTestNegative -->
+      <class name="Random.NewTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC4"/>
+          <include name="TC2"/>
+          <include name="aftertestscript"/>
+          <include name="afterClass"/>
+          <include name="beforeteststarted"/>
+          <include name="beforetestscript"/>
+          <include name="afterteststarted"/>
+        </methods>
+      </class> <!-- Random.NewTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
